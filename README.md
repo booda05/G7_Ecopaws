@@ -5,7 +5,7 @@ EcoPaws: Boutique éco-responsable d'accessoires pour animaux. Code source et do
 Ce projet a été réalisé grâce à la collaboration des membres de notre équipe :
 
 -Si Ahmed Abderrahmane  
--Sid-Ali Griche
+-Sid-Ali Griche  
 -Zineb El Yaznasni
 
 EcoPaws: Boutique Éco-Responsable pour Animaux
