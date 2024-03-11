@@ -15,17 +15,16 @@ Bienvenue sur le dépôt GitHub d'EcoPaws, votre boutique éco-responsable dédi
 Notre Engagement
 
 EcoPaws s'engage à:
-
-    Durabilité: Choisir des matériaux écologiques et des processus de fabrication respectueux de l'environnement pour minimiser notre empreinte carbone.
-    Qualité: Assurer la durabilité et le confort à travers des produits conçus pour résister à l'épreuve du temps et à l'usage quotidien.
-    Innovation: Rechercher continuellement des solutions innovantes pour améliorer l'expérience de nos clients et le bien-être de leurs animaux.
+- Durabilité: Choisir des matériaux écologiques et des processus de fabrication respectueux de l'environnement pour minimiser notre empreinte carbone.
+- Qualité: Assurer la durabilité et le confort à travers des produits conçus pour résister à l'épreuve du temps et à l'usage quotidien.
+- Innovation: Rechercher continuellement des solutions innovantes pour améliorer l'expérience de nos clients et le bien-être de leurs animaux.
 
 Caractéristiques du Projet
 
 Ce dépôt contient:
 
-    Code Source: Toutes les ressources nécessaires pour naviguer et effectuer des achats sur notre boutique en ligne.
-    Documentation: Guides détaillés sur l'installation, la configuration et l'utilisation de notre plateforme, ainsi que sur la philosophie éco-responsable derrière nos produits.
+- Code Source: Toutes les ressources nécessaires pour naviguer et effectuer des achats sur notre boutique en ligne.
+- Documentation: Guides détaillés sur l'installation, la configuration et l'utilisation de notre plateforme, ainsi que sur la philosophie éco-responsable derrière nos produits.
 
 Comment Contribuer
 
