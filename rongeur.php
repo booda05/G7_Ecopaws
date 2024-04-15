@@ -1,6 +1,5 @@
 <?php 
-session_start();
-include 'navigation.css';
+include 'navigation.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,35 +11,11 @@ include 'navigation.css';
 </head>
 <body>
 	<header>
-		<nav>
-			<div class="navdiv">
-				<a href="index2.php" class="acceuil" style="
-				font-size: 30px; order:2; flex: 0.15;margin-top: 25px; font-weight: 900;color: rgb(56, 61, 64);">Acceuil</a> 
-
-				<a href="" class="apropos" style="font-size: 30px; order: 3; flex: 0.225;margin-top: 25px;font-weight: 900;color: rgb(56, 61, 64);"> Présentation</a> 
-
-
-				<a href="#categ" class="ap"style="font-size: 30px;order:4; flex: 0.22;margin-top: 25px;font-weight: 900;color: rgb(56, 61, 64);">Nos produits</a> 
-
-				<a href="" class="contact" style="font-size: 30px; order: 5; flex: 0.13;margin-top: 25px;font-weight: 900;color: rgb(56, 61, 64);"> Contact</a> 
-
-				<a href="index2.php" style="order: 1; flex: 0.15;"><img src="image/logo1.png" style="max-width: 110px;margin-bottom: 20px;"></a>
-
-
-
-				<span style="order: 6; flex: 0.26;margin-top: 17.5px;"><input type="search" name="search" id="search" placeholder="  Nouritures chiens,chats...etc" style="border:none; box-shadow: 1px 1px 1px grey; width: 19vw; height: 6vh;"> </span>
-				<span style="position : relative;left: 88%; top: 12%;margin-top: 17.5px;"><a href=""> <img src="image/loupe.png" style="width: 25px;"> </a></span>
-
-				<a href="index.php" style="order: 6; flex: 0.06;"><img src="image/deco.png" style="max-width: 40px;margin-top: 20px;"></a>
-
-				<a href="panier.php" style="order: 7; flex: 0.05;"><img src="image/panier.png" style="max-width: 40px;margin-top: 20px;"></a>
-			</div>
-		</nav>
 	</header>
 
 	<!-- La PARTIE DES PRODUITS -->
 	<div>
-		<p class="meuilleur">Nous Sélectionnons le meuilleur pour votre chien</p>
+		<p class="meuilleur">Nous Sélectionnons le meilleur pour votre Rongeur</p>
 
 		<div class="divproduits">
 

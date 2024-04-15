@@ -30,8 +30,19 @@ include 'navigation.php';
                 <textarea id="message" name="message" required></textarea>
             </div>
             <button type="submit">Envoyer</button>
+            <?php if (!empty($_SESSION['message_confirmation'])) : ?>
+    <div style="color: green;">
+        <?php 
+            echo $_SESSION['message_confirmation']; 
+            // Après l'affichage, effacez le message pour qu'il ne réapparaisse pas lors des rechargements futurs.
+            unset($_SESSION['message_confirmation']);
+        ?>
+    </div>
+<?php endif; ?>
         </form>
     </div>
+   
+
 
     <!-- Inclure votre pied de page ici -->
     <?php include 'footer.php'; ?>

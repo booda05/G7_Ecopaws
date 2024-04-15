@@ -23,23 +23,11 @@ try {
         $sql->execute([$nom, $email, $message]);
 
         // Affichage du message de confirmation
-        echo "<div style='color: green;'>Votre message a bien été envoyé.</div>";
+        $_SESSION['message_confirmation'] = "Votre message a bien été envoyé.";
+        header('Location: contact.php'); // Redirection vers contact.php
+        exit();
     }
 } catch(PDOException $e) {
     echo "Erreur : " . $e->getMessage();
 }
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Confirmation</title>
-    <link rel="stylesheet" type="text/css" href="presentation.css">
-    <meta charset="utf-8">
-</head>
-<body>
-    <div class="container-1">
-        <!-- Le contenu de votre confirmation ou redirection -->
-        <?php include 'footer.php'; ?>
-    </div>
-</body>
-</html>
