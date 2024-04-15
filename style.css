@@ -68,17 +68,39 @@ footer{
 	
 	
 }
-.navdiv{
-	display:flex;
-	height: 15vh;
-	font-family: monospace;
-
-}
-a{
-	text-decoration: none;
-	color: black;	
+nav .navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
 }
 
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #008000;
+}
+
+nav .navdiv a {
+    font-size: 30px; /* La taille de votre police */
+    font-weight: 900; /* Gras */
+    margin-top: 25px; /* Espacement au-dessus du lien */
+    color: rgb(56, 61, 64); /* Couleur de texte initiale */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Effet de survol */
+nav .navdiv a:hover {
+    color: #008000; /* Vert lors du survol */
+    cursor: pointer; /* Change le curseur pour indiquer un lien cliquable */
+    transform: scale(0.8); /* Ajustez la valeur pour obtenir l'effet de zoom souhaité */
+    color: #008000;
+}
 ul{
 	list-style-type: none;
 }
